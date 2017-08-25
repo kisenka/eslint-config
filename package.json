@@ -1,0 +1,24 @@
+{
+  "name": "@kisenka/eslint-config",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "license": "MIT",
+  "author": "kisenka <qtuzov@gmail.com>",
+  "homepage": "https://github.com/kisenka/eslint-config#readme",
+  "bugs": "https://github.com/kisenka/eslint-config/issues",
+  "repository": "https://github.com/kisenka/eslint-config",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "dependencies": {
+    "@jetbrains/eslint-config": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "config": {}
+}
