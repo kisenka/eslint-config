@@ -5,10 +5,7 @@ module.exports = {
     "@jetbrains/eslint-config/node"
   ],
   "parserOptions":{
-    "ecmaVersion": 6,
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true
-    }
+    "sourceType": "module"
   },
   "rules": {
     "complexity": ["error", 15],
