@@ -13,6 +13,7 @@ module.exports = {
   },
   "rules": {
     "complexity": ["error", 15],
+    "dot-location": ["error", "property"],
     "import/no-commonjs": "off",
     "max-len": ["error", 100, {
       "ignoreComments": true,
