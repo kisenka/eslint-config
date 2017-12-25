@@ -1,6 +1,6 @@
 module.exports = {
   "extends": [
-    "./default",
+    "./index",
     "@jetbrains/eslint-config/test"
   ]
 };

@@ -16,9 +16,9 @@
     "*.js"
   ],
   "dependencies": {
-    "@jetbrains/eslint-config": "^2.0.0"
+    "@jetbrains/eslint-config": "^3.0.2"
   },
-  "devDependencies": {},
-  "scripts": {},
-  "config": {}
+  "peerDependencies": {
+    "eslint": ">=4.2.0"
+  }
 }

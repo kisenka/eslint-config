@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@jetbrains/eslint-config@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@jetbrains/eslint-config/-/eslint-config-2.0.0.tgz#6e816a43a50e4d8545d6a18420537e06892ce654"
+"@jetbrains/eslint-config@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@jetbrains/eslint-config/-/eslint-config-3.0.2.tgz#284970928e9e6ffdc35b1353c7729d17d6d891a5"
   dependencies:
     eslint-import-resolver-webpack "^0.8.3"
     eslint-plugin-angular "^3.0.0"
