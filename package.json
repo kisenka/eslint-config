@@ -16,7 +16,7 @@
     "*.js"
   ],
   "dependencies": {
-    "@jetbrains/eslint-config": "^3.0.2"
+    "@jetbrains/eslint-config": "^5.3.1"
   },
   "peerDependencies": {
     "eslint": ">=4.2.0"

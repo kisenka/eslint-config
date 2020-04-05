@@ -1,28 +1,17 @@
 module.exports = {
-  "extends": [
-    "@jetbrains",
-    "@jetbrains/eslint-config/es6",
-    "@jetbrains/eslint-config/node"
+  parser: 'babel-eslint',
+  extends: [
+    '@jetbrains/eslint-config',
+    '@jetbrains/eslint-config/browser',
+    '@jetbrains/eslint-config/es6',
+    '@jetbrains/eslint-config/node'
   ],
-  "parserOptions": {
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true
-    },
-    "ecmaVersion": 2017,
-    "sourceType": "module"
-  },
-  "rules": {
-    "complexity": ["error", 15],
-    "dot-location": ["error", "property"],
-    "import/no-commonjs": "off",
-    "max-len": ["error", 100, {
-      "ignoreComments": true,
-      "ignoreTemplateLiterals": true,
-      "ignoreRegExpLiterals": true
-    }],
-    "object-curly-spacing": ["error", "always"],
-    "no-magic-numbers": ["error", { "ignore": [-1, 0, 1, 2] }],
-    "no-return-assign": "off",
-    "valid-jsdoc": "off"
+  rules: {
+    'no-magic-numbers': 'off',
+    'valid-jsdoc': 'off',
+    'no-unused-vars': [
+      'error',
+      { vars: 'all', args: 'after-used', ignoreRestSiblings: true }
+    ]
   }
 };
